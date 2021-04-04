@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
@@ -19,14 +19,14 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
             <div class="container">
-                <button class="navbar-toggler navbar-toggler-right bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler navbar-toggler-right bg-secondary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive" >
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about" >About Me</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Experience</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#experience">Experience</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">Skills</a></li>
                     </ul>
                 </div>
@@ -35,11 +35,69 @@
         <!-- Masthead-->
 
           <!-- About Section Button-->
-<style>
-          span {
-            background-color: #2C3F51;
+
+          <style>
+          body {font-family: Arial;}
+
+          /* Style the tab */
+          .tab {
+            overflow: hidden;
+
+            background-color:#fff;
           }
-</style>
+
+          /* Style the buttons inside the tab */
+          .tab button {
+            background-color: inherit;
+
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 22px;
+            transition: 0.3s;
+            font-size: 22px;
+          }
+          .border
+          {
+          border: 1px solid #ccc;
+          }
+
+          /* Change background color of buttons on hover */
+          .tab button:hover {
+            background-color: #fff;
+          color:#add8e6;
+          }
+
+          /* Create an active/current tablink class */
+          .tab button.active {
+            background-color: #fff;
+          }
+
+          /* Style the tab content */
+          .tabcontent {
+            display: none;
+            padding: 6px 12px;
+
+            border-top: none;
+          }
+          .widthsize
+          {
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          .cm
+          {
+            margin-left: auto;
+            margin-right: auto;
+          }
+          .extra
+          {
+             margin-bottom: 0
+          }
+
+          </style>
+
 
           </div>
           </div>
@@ -48,128 +106,183 @@
 
 
         <!-- About Section-->
-        <section class="page-section " id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <br>
-                <br>
-                <br>
-                <h2 class="page-section-heading text-center  mb-0">About Me</h2>
-                  <img width="185" height="185" style="float:left" src="assets/img/jihyo.png" alt="" />
-                <!-- Icon Divider-->
 
-                <!-- About Section Content-->
-<br>
-<br>
-<br>
 
-                    <div  mt-4"><p class="lead">Hi, I am Jihyo Lee and I am currently studying computer science at York University</p>
+        <section class="page-section mb-0" id="about">
+                    <div class="container">
+                        <!-- About Section Heading--><br>
+                        <br>
+                        <br>
+                        <h2 class="page-section-heading text-center  ">About Me</h2>
+                        <!-- Icon Divider-->
+                        <div class="divider-custom divider-light">
+
+                        </div>
+                        <!-- About Section Content-->
+                        <div class="row">
+                            <div class="col-lg-4 "><p class="lead">  <img width="185" height="185"  src="assets/img/jihyo.png" alt="" /></p></div>
+                            <div class=" mr-auto"><p >Hi, I am Jihyo Lee and I am currently studying computer science at York University <h5>Courses</h5>
+
+
+                            <ul>
+                              <li>Net-centric Introduction to Computing</li>
+                              <li>Programming for Mobile Computing</li>
+                              <li>Advanced Object Oriented Programming</li>
+                              <li>Software Tools</li>
+                              <li>User Interfaces</li>
+                            </ul></p></div>
+                        </div>
+                        <!-- About Section Button-->
 
                     </div>
-                    <h5>Courses</h5>
+                </section>
 
-
-                    <ul>
-                      <li>Net-centric Introduction to Computing</li>
-                      <li>Programming for Mobile Computing</li>
-                      <li>Advanced Object Oriented Programming</li>
-                      <li>Software Tools</li>
-                      <li>User Interfaces</li>
-                    </ul>
-
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-
-                </div>
-            </div>
-        </section>
         <!-- Portfolio Section-->
-        <section class="page-section portfolio bg-secondary text-white" id="portfolio">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading  text-center mb-0">Experience</h2>
-                <!-- Icon Divider-->
-
-                <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center ">
-                  <section class="page-section" id="about">
-
-<div class="container d-flex align-items-center flex-column">
 
 
-  <img  class="center" width="175" height=175"  style="vertical-align:middle" src="assets/img/mh.png" alt="" />
 
-                               <h5> Mackenzie Health</h5>
-
-                           <p > Smart Systems Intern</p>
-
-                           <img  class="center" width="175" height="175" style="vertical-align:middle" src="assets/img/lsg.png" alt="" />
-                                                          <h5>Lassonde Student Government</h5>
-
-                                                      <p>Vice President of Media</p>
+       <section class="page-section bg-secondary text-white mb-0" id="experience">
+                   <div class="container ">
+                       <!-- Contact Section Heading-->
+                       <h2 class="page-section-heading text-center text-white mb-0">Experience</h2>
+                       <!-- Icon Divider-->
+                       <div class="divider-custom">
 
                        </div>
-
-                   <br>
-                   <br>
-                   <br>
+                       <!-- Contact Section Form-->
 
 
-                       </div>
-</div>
-           </div>
-       </section>
+                            <p class="text-center"> <img  class="center" width="175" height="175"  src="assets/img/mh.png" alt="" />
 
-        <!-- About Section-->
-        <section class="page-section " id="skills">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center  mb-0">Skills</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
+                                                          <h5 class="text-center"> Mackenzie Health</h5>
+                                                        <p class="text-center"> Smart Systems Intern  <div class="container d-flex align-items-center flex-column "><ul>
+                                                          <li >Validated smart devices ensuring they are connected and displaying correct information</li>
 
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                  <div class="col-md-6 col-lg-4 mb-5">
+                                                          <li >Provided support on smartphones and other smart technologies during go-live</li>
+                                                          <li >Esclated any issues and did a follow up to ensure users have necessary support</li>
 
-                    <div class="col-lg-4 mr-auto"><h5 class="lead" > Java  </h5></div>
-                      <div class="portfolio-item mr-auto" >
-                          <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                              <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                          </div>
-                          <img class="img-fluid" width="200" height="200" src="assets/img/portfolio/java.png" alt="" />
-                      </div>
+                                                        </ul></div>
+                                                      </p></p>
+
+
+                                                        <p class="text-center"><img  class="center" width="175" height="175"  src="assets/img/lsg.png" alt="" />
+
+                                                                                       <h5 class="text-center"> Lassonde Student Government</h5>
+                                                                                       <p class="text-center"> Vice President of Media </p> </p>
+
+
+
+
+
+                 </div>
+               </section>
+
+
+
+          <!-- Contact Section-->
+          <section class="page-section" id="skills">
+              <div class="container">
+                  <!-- Contact Section Heading-->
+                  <h2 class="page-section-heading text-center text-secondary mb-0">Skills</h2>
+          <!-- Icon Divider-->
+                  <div class="divider-custom">
+
                   </div>
 
-                  <!-- Portfolio Item 2-->
-                  <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="col-lg-4 "><p class="lead">C</p></div>
+                  <div class="row justify-content-center">
+                      <!-- Portfolio Item 1-->
+                      <div class="col-md-6 col-lg-4 mb-5">
+                          <div class="portfolio-item mx-auto" >
 
-                      <div class="portfolio-item ml-auto" >
-                          <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                              <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                              <img class="img-fluid"  width="200" height="200"src="assets/img/portfolio/java.png" alt="..." />
                           </div>
-                          <img class="img-fluid" width="200" height="200"  src="assets/img/portfolio/c.png" alt="" />
+                      </div>
+                      <!-- Portfolio Item 2-->
+                      <div class="col-md-6 col-lg-4 mb-5">
+                          <div class="portfolio-item mx-auto" >
+
+                              <img class="img-fluid" width="200" height="200"src="assets/img/portfolio/c.png" alt="..." />
+                          </div>
+                      </div>
+                      <!-- Portfolio Item 3-->
+                      <div class="col-md-6 col-lg-4 mb-5">
+                          <div class="portfolio-item mx-auto" >
+
+                              <img class="img-fluid" width="200" height="200"src="assets/img/portfolio/html.png" alt="..." />
+                          </div>
                       </div>
 
-                </div>
-                <!-- About Section Button-->
 
-                <div class="col-md-6 col-lg-4 mb-5">
 
-                  <div class="col-lg-4 mr-auto"><p class="lead">HTML</p></div>
-                    <div class="portfolio-item mr-auto" >
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" width="200" height="200"  src="assets/img/portfolio/html.png" alt="" />
-                    </div>
-                </div>
-                </div>
-            </div>
-        </section>
+                  </div>
+
+
+  <div class="tab text-center">
+
+    <button class="tablinks text-center" onclick="openCity(event, 'project')"><b><u>Projects</u></b></button>
+    <button class="tablinks text-center" onclick="openCity(event, 'goal')"><b><u>Goals</b></u></button>
+
+  </div>
+
+
+
+  <div id="project" class="tabcontent text-center">
+    <h5 class="text-center"></h5>
+    <p class="text-center">  <div class="row justify-content-center">
+          <!-- Portfolio Item 1-->
+
+          <div class="col-md-6 col-lg-4 mb-5">
+              <div class="portfolio-item mx-auto">
+
+                  <img class="img-fluid" width="250" height="250" src="assets/img/poster.png" alt="..." />
+
+              </div>
+          </div>
+          <!-- Portfolio Item 2-->
+          <div class="col-md-6 col-lg-4 mb-5">
+              <div class="portfolio-item mx-auto">
+
+                  <img class="img-fluid" width="250" height="250" src="assets/img/website.png" alt="..." />
+              </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-5">
+              <div class="portfolio-item mx-auto">
+
+                  <img class="img-fluid" width="250" height="250" src="assets/img/figma.png" alt="..." />
+              </div>
+          </div>
+
+</div></p>
+</div>
+
+  <div id="goal" class="tabcontent text-center ">
+    <h5 class="text-center"></h5>
+    <p class="text-center "><div class="widthsize"> Having good communication and presentation skills is important. I would like to focus on avoiding using filler words when delivering a speech. Since it is a daily used skill, the  ability to articulate myself is important. I would like to be concise and focus on how to better deliver key information.
+  </div></p>
+</div>
+
+
+
+  <script>
+  function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  </script>
+
+
+              </div>
+          </section>
         <!-- Contact Section-->
 
         <!-- Footer-->
